@@ -24,6 +24,7 @@
 		<Item Name="Carl" Type="Folder">
 			<Item Name="Mother.lvclass" Type="LVClass" URL="../Runner/Carl/Mother/Mother.lvclass"/>
 			<Item Name="Scout.lvclass" Type="LVClass" URL="../Runner/Carl/Scout/Scout.lvclass"/>
+			<Item Name="Coward.lvclass" Type="LVClass" URL="../Runner/Carl/Coward/Coward.lvclass"/>
 			<Item Name="Protector.lvclass" Type="LVClass" URL="../Runner/Carl/Protector/Protector.lvclass"/>
 		</Item>
 		<Item Name="Robert" Type="Folder">
