@@ -35,15 +35,11 @@
 			<Item Name="Explorer.lvclass" Type="LVClass" URL="../Runner/Explorer/Explorer.lvclass"/>
 			<Item Name="Wanderer.lvclass" Type="LVClass" URL="../Runner/Wanderer/Wanderer.lvclass"/>
 		</Item>
-		<Item Name="Get Window Handle.vi" Type="VI" URL="../Utility/Get Window Handle.vi"/>
-		<Item Name="Set Transparent Color.vi" Type="VI" URL="../Utility/Set Transparent Color.vi"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Endigit.lvlib" Type="Library" URL="../Endigit Library/Endigit.lvlib"/>
+		</Item>
 		<Item Name="SquareBattle.lvclass" Type="LVClass" URL="../SquareBattle.lvclass"/>
-		<Item Name="Endigit.lvlib" Type="Library" URL="../Endigit Library/Endigit.lvlib"/>
 		<Item Name="Runner.lvclass" Type="LVClass" URL="../Runner/Runner.lvclass"/>
-		<Item Name="Dashboard.ctl" Type="VI" URL="../Dashboard.ctl"/>
-		<Item Name="Queen Bee Steps.ctl" Type="VI" URL="../Runner/Carl/Mother/Queen Bee Steps.ctl"/>
-		<Item Name="Kamikaze DVR.ctl" Type="VI" URL="../Runner/Carl/Mother/Kamikaze DVR.ctl"/>
-		<Item Name="Formic Types.ctl" Type="VI" URL="../Runner/Carl/Mother/Formic Types.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -108,7 +104,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Attack Options.ctl" Type="VI" URL="../Runner/Carl/Mother/Attack Options.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SquareBattle" Type="EXE">
