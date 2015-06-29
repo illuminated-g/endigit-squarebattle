@@ -16,6 +16,7 @@
 		<Item Name="Logout.ctl" Type="VI" URL="../Logout.ctl"/>
 		<Item Name="Red Button.ctl" Type="VI" URL="../../Images/Red Button.ctl"/>
 		<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
+		<Item Name="Small Checkbox.ctl" Type="VI" URL="../Small Checkbox.ctl"/>
 	</Item>
 	<Item Name="Splash Screen" Type="Folder">
 		<Item Name="Ball Loading Screen.vi" Type="VI" URL="../Ball Loading Screen.vi"/>
@@ -44,7 +45,6 @@
 	<Item Name="Set if 0.vi" Type="VI" URL="../Set if 0.vi"/>
 	<Item Name="Set Title.vi" Type="VI" URL="../Set Title.vi"/>
 	<Item Name="Set Transparent Color.vi" Type="VI" URL="../Set Transparent Color.vi"/>
-	<Item Name="Small Checkbox.ctl" Type="VI" URL="../Small Checkbox.ctl"/>
 	<Item Name="Status.vi" Type="VI" URL="../Status.vi"/>
 	<Item Name="Suppress Error.vi" Type="VI" URL="../Suppress Error.vi"/>
 	<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>

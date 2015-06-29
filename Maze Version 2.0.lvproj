@@ -40,7 +40,6 @@
 		</Item>
 		<Item Name="SquareBattle.lvclass" Type="LVClass" URL="../SquareBattle.lvclass"/>
 		<Item Name="Runner.lvclass" Type="LVClass" URL="../Runner/Runner.lvclass"/>
-		<Item Name="UI Refs.ctl" Type="VI" URL="../UI Refs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
