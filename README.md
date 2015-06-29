@@ -1,7 +1,5 @@
 # README #
 
-We will switch this to a public repository as soon as I add some licensing (probably GNU public) to the files.
-
 ### What is this repository for? ###
 
 * Squarebattle is a game written in LabVIEW where you create your own squares to compete against other peoples squares in the arena.
