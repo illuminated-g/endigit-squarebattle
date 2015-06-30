@@ -30,6 +30,8 @@
 		<Item Name="Robert" Type="Folder">
 			<Item Name="Attack.lvclass" Type="LVClass" URL="../Runner/Robert/Attack/Attack.lvclass"/>
 			<Item Name="Spawn.lvclass" Type="LVClass" URL="../Runner/Robert/Spawn/Spawn.lvclass"/>
+			<Item Name="Lone Wolf.lvclass" Type="LVClass" URL="../Runner/Robert/Lone Wolf/Lone Wolf.lvclass"/>
+			<Item Name="Expand.lvclass" Type="LVClass" URL="../Runner/Robert/Expand/Expand.lvclass"/>
 		</Item>
 		<Item Name="Shawn" Type="Folder">
 			<Item Name="Explorer.lvclass" Type="LVClass" URL="../Runner/Explorer/Explorer.lvclass"/>
