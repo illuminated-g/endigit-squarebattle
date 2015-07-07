@@ -10,11 +10,11 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="About.ctl" Type="VI" URL="../About.ctl"/>
 		<Item Name="Checkbox.ctl" Type="VI" URL="../Checkbox.ctl"/>
-		<Item Name="Green Button.ctl" Type="VI" URL="../../Images/Green Button.ctl"/>
-		<Item Name="Grey Button.ctl" Type="VI" URL="../../Images/Grey Button.ctl"/>
+		<Item Name="Green Button.ctl" Type="VI" URL="../Green Button.ctl"/>
+		<Item Name="Grey Button.ctl" Type="VI" URL="../Grey Button.ctl"/>
 		<Item Name="Log.ctl" Type="VI" URL="../Log.ctl"/>
 		<Item Name="Logout.ctl" Type="VI" URL="../Logout.ctl"/>
-		<Item Name="Red Button.ctl" Type="VI" URL="../../Images/Red Button.ctl"/>
+		<Item Name="Red Button.ctl" Type="VI" URL="../Red Button.ctl"/>
 		<Item Name="Settings.ctl" Type="VI" URL="../Settings.ctl"/>
 		<Item Name="Small Checkbox.ctl" Type="VI" URL="../Small Checkbox.ctl"/>
 	</Item>
