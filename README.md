@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-* Squarebattle is a game written in LabVIEW where you create your own squares to compete against other peoples squares in the arena.
+* SquareBattle is a game written in LabVIEW where you create your own squares to compete against other peoples squares in the arena.
 
 ### How do I get set up? ###
 
