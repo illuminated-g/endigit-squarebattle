@@ -28,10 +28,16 @@
 			<Item Name="Protector.lvclass" Type="LVClass" URL="../Runner/Carl/Protector/Protector.lvclass"/>
 		</Item>
 		<Item Name="Robert" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Attack.lvclass" Type="LVClass" URL="../Runner/Robert/Attack/Attack.lvclass"/>
-			<Item Name="Spawn.lvclass" Type="LVClass" URL="../Runner/Robert/Spawn/Spawn.lvclass"/>
-			<Item Name="Lone Wolf.lvclass" Type="LVClass" URL="../Runner/Robert/Lone Wolf/Lone Wolf.lvclass"/>
 			<Item Name="Expand.lvclass" Type="LVClass" URL="../Runner/Robert/Expand/Expand.lvclass"/>
+			<Item Name="Hesitant Wolf.lvclass" Type="LVClass" URL="../Runner/Robert/Hesitant Wolf/Hesitant Wolf.lvclass"/>
+			<Item Name="Hungry Wolf.lvclass" Type="LVClass" URL="../Runner/Robert/Hungry Wolf/Hungry Wolf.lvclass"/>
+			<Item Name="Lone Wolf.lvclass" Type="LVClass" URL="../Runner/Robert/Lone Wolf/Lone Wolf.lvclass"/>
+			<Item Name="Net Attack.lvclass" Type="LVClass" URL="../Runner/Robert/Net Attack/Net Attack.lvclass"/>
+			<Item Name="Net.lvclass" Type="LVClass" URL="../Runner/Robert/Net/Net.lvclass"/>
+			<Item Name="Spawn.lvclass" Type="LVClass" URL="../Runner/Robert/Spawn/Spawn.lvclass"/>
+			<Item Name="Spread.lvclass" Type="LVClass" URL="../Runner/Robert/Spread/Spread.lvclass"/>
 		</Item>
 		<Item Name="Shawn" Type="Folder">
 			<Item Name="Explorer.lvclass" Type="LVClass" URL="../Runner/Explorer/Explorer.lvclass"/>
