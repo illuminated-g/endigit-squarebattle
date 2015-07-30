@@ -41,12 +41,12 @@
 	<Item Name="MECC CRC32.vi" Type="VI" URL="../MECC CRC32.vi"/>
 	<Item Name="Not Equal (F).vi" Type="VI" URL="../Not Equal (F).vi"/>
 	<Item Name="Not Equal (T).vi" Type="VI" URL="../Not Equal (T).vi"/>
-	<Item Name="Paths.vi" Type="VI" URL="../Paths.vi"/>
+	<Item Name="Paths.vi" Type="VI" URL="../../../TCB/Endigit Library/Paths.vi"/>
 	<Item Name="Set if 0.vi" Type="VI" URL="../Set if 0.vi"/>
 	<Item Name="Set Title.vi" Type="VI" URL="../Set Title.vi"/>
 	<Item Name="Set Transparent Color.vi" Type="VI" URL="../Set Transparent Color.vi"/>
-	<Item Name="Status.vi" Type="VI" URL="../Status.vi"/>
+	<Item Name="Status.vi" Type="VI" URL="../../../TCB/Endigit Library/Status.vi"/>
 	<Item Name="Suppress Error.vi" Type="VI" URL="../Suppress Error.vi"/>
 	<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>
-	<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
+	<Item Name="Wait.vi" Type="VI" URL="../../../TCB/Endigit Library/Wait.vi"/>
 </Library>
