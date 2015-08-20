@@ -12,7 +12,7 @@
 
 ### Running the game ###
 
-Launch the project and run SquareBattle Main.vi. Select the Squares to compete and click Start Battle. The Squares will duke it out until there's only one left or the timer runs out.
+* Launch the project and run SquareBattle Main.vi. Select the Squares to compete and click Start Battle. The Squares will duke it out until there's only one left or the timer runs out.
 
 
 ### Creating your own square ###
