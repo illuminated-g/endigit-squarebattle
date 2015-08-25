@@ -11,10 +11,14 @@
 	<Item Name="Dashboard Val Change.vi" Type="VI" URL="../Dashboard Val Change.vi"/>
 	<Item Name="End Battle.vi" Type="VI" URL="../End Battle.vi"/>
 	<Item Name="Game Engine.vi" Type="VI" URL="../Game Engine.vi"/>
+	<Item Name="Globals (private).vi" Type="VI" URL="../Globals (private).vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 	<Item Name="Handle Collision.vi" Type="VI" URL="../Handle Collision.vi"/>
 	<Item Name="Handle Player.vi" Type="VI" URL="../Handle Player.vi"/>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
+	<Item Name="Read-Only Globals.vi" Type="VI" URL="../Read-Only Globals.vi"/>
 	<Item Name="Refresh Players.vi" Type="VI" URL="../Refresh Players.vi"/>
 	<Item Name="Set Attacked.vi" Type="VI" URL="../Set Attacked.vi"/>
 	<Item Name="Start Battle.vi" Type="VI" URL="../Start Battle.vi"/>
