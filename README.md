@@ -17,10 +17,23 @@
 
 ### Creating your own square ###
 
-* To create your own Square competitor it must inherit from Square.lvclass and it must reside in the "Squares" auto-populated folder. Also, it must override the methods "Player Info.vi" and "Run.vi". Player Info is called once when the arena is launched and allows you to name your Square competitor as well as specify a victory phrase which is displayed when you win.  The Run method is called every tick once the game starts. The tick time is currently user adjustable during the game. Your square can Wait, Move, Attack, or Replicate. Wait, Move and Attack each take one turn, Replicate takes 100 turns. To start out there are several example classes to pick from that can do battle. These are all within the Square folder. Shawn's Wanderer and Explorer classes are excellent opponents to go up against as you develop your own class.
-* As soon as your class is created and "Player Info.vi" and "Run.vi" are overridden, your Square will show up in the list of players.  In order for them to show up in the executable, you will need to run the "Class Source Distribution" build specification.
+* To create your own Square competitor it must inherit from Square.lvclass (after you open the project, right click on "My Computer"->New->Class to create a class, then change the inheritance by right clicking on the class, going to properties->inheritance->"Change Inheritance" and then select "Square.lvclass")  and it must reside in the "Squares" auto-populated folder. Also, it must override "Run.vi" (Right click on the class after it is set up to inherit from the Square.lvclass, choose new->"vi for override" and select "Run.vi"). 
+* In order for your squares to show up in the list of competitors you also must override "Player Info.vi" which is called once when the arena is launched and allows you to name your Square competitor as well as specify a victory phrase to be displayed when you win.
+* The Run.vi method of each square on the board will be called once every tick once the game starts. After all of the "Run.vi" data has been collected, the arena will be updated. The tick time is currently user adjustable during the game.
+* The Run.vi has as an input a 3x3 2d numeric array where the middle value represents your square and the rest represent the board immediately surrounding your square with 0 indicating an empty square -1 indicating an enemy and any positive numbers representing one of your own squares. Your job is to take that array, decide what to do, and then respond with an Action and a Direction to take that action in (as well as a Class if you are replicating). 
+* The available actions are Wait, Move, Attack, or Replicate. Wait, Move and Attack each take one turn, Replicate takes 100 turns. When you Replicate you can pick the class of your new square. So, for example, you could have an initial square that just replicates, but when it replicates, the new squares are squares that move around and look for enemies.
 
+### More things to know ###
+
+* For examples of what the "Player Info.vi" and "Run.vi" should look like, look at any of the example squares in the "Squares" folder. If a class doesn't override the "Player Info.vi" you can still choose to launch that file when you Replicate (see below) but it won't show up in the list of initial players.
+* To start out there are several example classes to pick from that can do battle. These are all within the Square folder. Shawn's Wanderer and Explorer classes are excellent opponents to go up against as you develop your own class.
+* As soon as your class is created and "Player Info.vi" and "Run.vi" are overridden, your Square will show up in the list of players when you run SquareBattle Main.vi directly.  In order for your squares to show up in the executable, you will need to run the "Class Source Distribution" build specification.
+* Squares are penalized if they take too long. The threshold is currently set to 1ms. As an example, if a square takes 10 ms to figure out what action to take, it will be skipped for the next 9 turns.
+* Actions are all processed and then computed at the end of each turn. This means that if two squares attack each other, they both die. Also, if there is more than one square in a single location at the end of a turn they both die. If you attack an empty square and someone moves into that empty square on the same turn, they die. If a location is being attacked, any squares in that location at the end of the turn die.
+
+So, let's see what you can do and remember to have fun!
 
 ### Who do I talk to? ###
+
 
 * shawn@endigit.com, carl@endigit.com or robert@endigit.com
