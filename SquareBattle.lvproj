@@ -133,7 +133,8 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8FA1C29A-08CB-4B56-83E4-5948DEF05FAB}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/SB SubVIs.lvlib/SquareBattle.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97890649-A0F7-4D4B-8D34-E78F4CF7011B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Square.lvclass</Property>
