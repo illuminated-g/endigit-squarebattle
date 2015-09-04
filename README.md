@@ -1,5 +1,6 @@
 # README #
 
+For detailed instructions, please download and review the following PDF: 
 [SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf)
 ### What is this repository for? ###
 
