@@ -1,5 +1,7 @@
 # README #
 
+For detailed instructions, please download and review the following PDF: 
+[SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf)
 ### What is this repository for? ###
 
 * SquareBattle is a game written in LabVIEW where you create your own squares to compete against other peoples squares in the arena.
