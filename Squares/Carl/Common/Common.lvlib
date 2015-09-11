@@ -14,5 +14,6 @@
 	<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 	<Item Name="Reshape Map.vi" Type="VI" URL="../Reshape Map.vi"/>
 	<Item Name="Reverse Direction.vi" Type="VI" URL="../Reverse Direction.vi"/>
+	<Item Name="Safe Move.vi" Type="VI" URL="../Safe Move.vi"/>
 	<Item Name="Update Position.vi" Type="VI" URL="../Update Position.vi"/>
 </Library>
