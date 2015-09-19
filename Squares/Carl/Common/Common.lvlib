@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Attack.vi" Type="VI" URL="../Attack.vi"/>
 	<Item Name="CCW Direction Shift.vi" Type="VI" URL="../CCW Direction Shift.vi"/>
+	<Item Name="Check For Self.vi" Type="VI" URL="../Check For Self.vi"/>
 	<Item Name="CW Direction Shift.vi" Type="VI" URL="../CW Direction Shift.vi"/>
 	<Item Name="Go To Position.vi" Type="VI" URL="../Go To Position.vi"/>
 	<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
