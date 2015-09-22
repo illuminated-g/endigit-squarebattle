@@ -1,7 +1,8 @@
 # README #
 
 For detailed instructions, please download and review the following PDF: 
-[SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf)
+[SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf).
+
 For the SquareBattle projct saved back to LabVIEW 2013, click [here](https://bitbucket.org/endigit/squarebattle-lv2013).
 ### What is this repository for? ###
 
