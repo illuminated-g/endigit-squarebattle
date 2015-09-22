@@ -3,7 +3,7 @@
 For detailed instructions, please download and review the following PDF: 
 [SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf).
 
-For the SquareBattle projct saved back to LabVIEW 2013, click [here](https://bitbucket.org/endigit/squarebattle-lv2013).
+For the SquareBattle projct saved back to LabVIEW 2013, see the [LV2013 Repository](https://bitbucket.org/endigit/squarebattle-lv2013).
 ### What is this repository for? ###
 
 * SquareBattle is a game written in LabVIEW where you create your own squares to compete against other peoples squares in the arena.
