@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Clear Attacked.vi" Type="VI" URL="../Clear Attacked.vi"/>
 	<Item Name="Dashboard Val Change.vi" Type="VI" URL="../Dashboard Val Change.vi"/>
+	<Item Name="Default Colors.vi" Type="VI" URL="../Default Colors.vi"/>
 	<Item Name="End Battle.vi" Type="VI" URL="../End Battle.vi"/>
 	<Item Name="Game Engine.vi" Type="VI" URL="../Game Engine.vi"/>
 	<Item Name="Globals (private).vi" Type="VI" URL="../Globals (private).vi">
