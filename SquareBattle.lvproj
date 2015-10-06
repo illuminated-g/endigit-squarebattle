@@ -96,7 +96,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Brick Wall.lvclass" Type="LVClass" URL="../Squares/Carl/Brick Wall/Brick Wall.lvclass"/>
+			<Item Name="Calculate Clan.vi" Type="VI" URL="../Squares/Robert/Crosswinds/Calculate Clan.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SquareBattle" Type="EXE">
