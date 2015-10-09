@@ -20,11 +20,13 @@
 	<Item Name="Handle Player.vi" Type="VI" URL="../Handle Player.vi"/>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
 	<Item Name="Read-Only Globals.vi" Type="VI" URL="../Read-Only Globals.vi"/>
+	<Item Name="Read-Only Stats.vi" Type="VI" URL="../Read-Only Stats.vi"/>
 	<Item Name="Refresh Players.vi" Type="VI" URL="../Refresh Players.vi"/>
 	<Item Name="Set Attacked.vi" Type="VI" URL="../Set Attacked.vi"/>
 	<Item Name="SquareBattle.ico" Type="Document" URL="../../Support VIs/SquareBattle.ico"/>
 	<Item Name="Start Battle.vi" Type="VI" URL="../Start Battle.vi"/>
 	<Item Name="Starting Positions.vi" Type="VI" URL="../Starting Positions.vi"/>
 	<Item Name="Update Front Panel.vi" Type="VI" URL="../Update Front Panel.vi"/>
+	<Item Name="Update Stats.vi" Type="VI" URL="../Update Stats.vi"/>
 	<Item Name="Victory Dialog.vi" Type="VI" URL="../Victory Dialog.vi"/>
 </Library>
