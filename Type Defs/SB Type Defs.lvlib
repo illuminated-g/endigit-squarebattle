@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Action Enum.ctl" Type="VI" URL="../Action Enum.ctl"/>
-	<Item Name="Add Player.ctl" Type="VI" URL="../Add Player.ctl"/>
 	<Item Name="Dashboard.ctl" Type="VI" URL="../Dashboard.ctl"/>
 	<Item Name="Direction Enum.ctl" Type="VI" URL="../Direction Enum.ctl"/>
 	<Item Name="Square Cluster.ctl" Type="VI" URL="../Square Cluster.ctl"/>
+	<Item Name="Status Enum.ctl" Type="VI" URL="../Status Enum.ctl"/>
 	<Item Name="UI Refs.ctl" Type="VI" URL="../UI Refs.ctl"/>
 </Library>
