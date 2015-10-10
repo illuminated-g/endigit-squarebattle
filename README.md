@@ -1,5 +1,6 @@
 # README #
 Quick notes regarding Rev 2:
+
 1. Added Stats!
 2. The map that is the input to run.vi is now a 1D array that can be indexed by the direction enum.
 3. The 1D array map has -1 for an empty space and then the team number of the square if it isn't ampty. For example, an array of [-1,-1,0,10,-1,-1,-1,-1,-1] would indicate empty squares all around you except someone from team 0 to your NE and someone from team 10 to your E.
