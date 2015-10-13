@@ -1,2 +1,4 @@
 Builds/
 ~*
+*.lvlps
+*.aliases
