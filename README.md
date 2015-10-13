@@ -5,9 +5,11 @@ Quick notes regarding Rev 2:
 2. The map that is the input to run.vi is now a 1D array that can be indexed by the direction enum.
 3. The 1D array map has -1 for an empty space and then the team number of the square if it isn't ampty. For example, an array of [-1,-1,0,10,-1,-1,-1,-1,-1] would indicate empty squares all around you except someone from team 0 to your NE and someone from team 10 to your E.
 4. Your own team # is an additional input to Run.vi
-5. There is a new vi you can override that is only called once, when your team is obliterated.
+5. There is a new vi (Eliminated.vi) you can override that is only called once, when your team is obliterated and gives you the name of the team that did it.
 6. Speaking of obliteration, Player Info now includes a phrase to be shown when you are obliterated.
-
+7. Players position on the map is given to them via a "row" and "column" input where 0,0 is in the bottom left corner and increases towards the top right corner.
+8. More efficient and spiffy
+9. Updated the Documentation
 
 For detailed instructions, please download and review the following PDF: 
 [SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf).
@@ -21,30 +23,11 @@ For the SquareBattle projct saved back to LabVIEW 2013, see the [LV2013 Reposito
 ### How do I get set up? ###
 
 * [Clone this repository](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101) somewhere on your computer, or alternatively, download the current version and unzip it somewhere on your computer.
-* In the LabVIEW project you will find some folders containing example Squares (Carl, Robert and Shawn), a folder of utility vis including the arena vis, the class "Square.lvclass" and then finally SquareBattle Main.vi, which when run launches the arena.
+* In the LabVIEW project you will find a folder named "Documentation". In that folder is the SquareBattle Instructions PDF I mention above. Grab some popcorn and settle down for some good reading. It will be worth it! No, really, you should read it.
 
 ### Running the game ###
 
 * Launch the project and run SquareBattle Main.vi. Select the Squares to compete and click Start Battle. The Squares will duke it out until there's only one left or the timer runs out.
-
-
-### Creating your own square ###
-
-* To create your own Square competitor it must inherit from Square.lvclass (after you open the project, right click on "My Computer"->New->Class to create a class, then change the inheritance by right clicking on the class, going to properties->inheritance->"Change Inheritance" and then select "Square.lvclass")  and it must reside in the "Squares" auto-populated folder. Also, it must override "Run.vi" (Right click on the class after it is set up to inherit from the Square.lvclass, choose new->"vi for override" and select "Run.vi"). 
-* In order for your squares to show up in the list of competitors you also must override "Player Info.vi" which is called once when the arena is launched and allows you to name your Square competitor as well as specify a victory phrase to be displayed when you win.
-* The Run.vi method of each square on the board will be called once every tick once the game starts. After all of the "Run.vi" data has been collected, the arena will be updated. The tick time is currently user adjustable during the game.
-* The Run.vi has as an input a 3x3 2d numeric array where the middle value represents your square and the rest represent the board immediately surrounding your square with 0 indicating an empty square -1 indicating an enemy and any positive numbers representing one of your own squares. Your job is to take that array, decide what to do, and then respond with an Action and a Direction to take that action in (as well as a Class if you are replicating). 
-* The available actions are Wait, Move, Attack, or Replicate. Wait, Move and Attack each take one turn, Replicate takes 100 turns. When you Replicate you can pick the class of your new square. So, for example, you could have an initial square that just replicates, but when it replicates, the new squares are squares that move around and look for enemies.
-
-### More things to know ###
-
-* For examples of what the "Player Info.vi" and "Run.vi" should look like, look at any of the example squares in the "Squares" folder. If a class doesn't override the "Player Info.vi" you can still choose to launch that file when you Replicate (see below) but it won't show up in the list of initial players.
-* To start out there are several example classes to pick from that can do battle. These are all within the Square folder. Shawn's Wanderer and Explorer classes are excellent opponents to go up against as you develop your own class.
-* As soon as your class is created and "Player Info.vi" and "Run.vi" are overridden, your Square will show up in the list of players when you run SquareBattle Main.vi directly.  In order for your squares to show up in the executable, you will need to run the "Class Source Distribution" build specification.
-* Squares are penalized if they take too long. The threshold is currently set to 1ms. As an example, if a square takes 10 ms to figure out what action to take, it will be skipped for the next 9 turns.
-* Actions are all processed and then computed at the end of each turn. This means that if two squares attack each other, they both die. Also, if there is more than one square in a single location at the end of a turn they both die. If you attack an empty square and someone moves into that empty square on the same turn, they die. If a location is being attacked, any squares in that location at the end of the turn die.
-
-So, let's see what you can do and remember to have fun!
 
 ### Who do I talk to? ###
 
