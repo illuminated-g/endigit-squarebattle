@@ -14,6 +14,8 @@ Quick notes regarding Rev 2:
 For detailed instructions, please download and review the following PDF: 
 [SquareBattle Instructions](Documents/SquareBattle_Instructions.pdf).
 
+Here is a [quick video that walks through creating a SquareBattle team](https://youtu.be/2Ymi0hzkQ0U).
+
 For the SquareBattle projct saved back to LabVIEW 2013, see the [LV2013 Repository](https://bitbucket.org/endigit/squarebattle-lv2013).
 ### What is this repository for? ###
 
