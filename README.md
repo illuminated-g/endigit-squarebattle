@@ -5,8 +5,8 @@ Quick notes regarding Rev 2:
 2. The map that is the input to run.vi is now a 1D array that can be indexed by the direction enum.
 3. The 1D array map has -1 for an empty space and then the team number of the square if it isn't ampty. For example, an array of [-1,-1,0,10,-1,-1,-1,-1,-1] would indicate empty squares all around you except someone from team 0 to your NE and someone from team 10 to your E.
 4. Your own team # is an additional input to Run.vi
-5. There is a new vi (Eliminated.vi) you can override that is only called once, when your team is obliterated and gives you the name of the team that did it.
-6. Speaking of obliteration, Player Info now includes a phrase to be shown when you are obliterated.
+5. There is a new vi (Eliminated.vi) you can override that is called when a square is eliminated from the game.
+6. SPlayer Info now includes a phrase to be shown when you are obliterated.
 7. Players position on the map is given to them via a "row" and "column" input where 0,0 is in the bottom left corner and increases towards the top right corner.
 8. More efficient and spiffy
 9. Updated the Documentation
