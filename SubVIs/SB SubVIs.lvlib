@@ -28,5 +28,4 @@
 	<Item Name="Starting Positions.vi" Type="VI" URL="../Starting Positions.vi"/>
 	<Item Name="Update Front Panel.vi" Type="VI" URL="../Update Front Panel.vi"/>
 	<Item Name="Update Stats.vi" Type="VI" URL="../Update Stats.vi"/>
-	<Item Name="Victory Dialog.vi" Type="VI" URL="../Victory Dialog.vi"/>
 </Library>
