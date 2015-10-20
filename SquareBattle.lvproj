@@ -26,6 +26,7 @@
 		</Item>
 		<Item Name="Squares" Type="Folder" URL="../Squares">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Square.lvclass" Type="LVClass" URL="../Square/Square.lvclass"/>
 		<Item Name="Endigit.lvlib" Type="Library" URL="../Endigit Library/Endigit.lvlib"/>
