@@ -12,6 +12,7 @@
 		<Item Name="Position.ctl" Type="VI" URL="../Position.ctl"/>
 		<Item Name="Map DVR.ctl" Type="VI" URL="../Map DVR.ctl"/>
 		<Item Name="Location Data.ctl" Type="VI" URL="../Location Data.ctl"/>
+		<Item Name="Attack Options.ctl" Type="VI" URL="../Attack Options.ctl"/>
 	</Item>
 	<Item Name="Attack.vi" Type="VI" URL="../Attack.vi"/>
 	<Item Name="Find Enemy.vi" Type="VI" URL="../Find Enemy.vi"/>
@@ -24,5 +25,4 @@
 	<Item Name="Update Position.vi" Type="VI" URL="../Update Position.vi"/>
 	<Item Name="Initialize Map.vi" Type="VI" URL="../Initialize Map.vi"/>
 	<Item Name="Update Map.vi" Type="VI" URL="../Update Map.vi"/>
-	<Item Name="Attack Options.ctl" Type="VI" URL="../Attack Options.ctl"/>
 </Library>
