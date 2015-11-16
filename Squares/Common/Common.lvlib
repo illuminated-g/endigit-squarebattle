@@ -18,10 +18,11 @@
 	<Item Name="CCW Direction Shift.vi" Type="VI" URL="../CCW Direction Shift.vi"/>
 	<Item Name="CW Direction Shift.vi" Type="VI" URL="../CW Direction Shift.vi"/>
 	<Item Name="Reverse Direction.vi" Type="VI" URL="../Reverse Direction.vi"/>
-	<Item Name="Update Map.vi" Type="VI" URL="../Update Map.vi"/>
 	<Item Name="Go To Position.vi" Type="VI" URL="../Go To Position.vi"/>
 	<Item Name="Check For Self.vi" Type="VI" URL="../Check For Self.vi"/>
 	<Item Name="Safe Move.vi" Type="VI" URL="../Safe Move.vi"/>
 	<Item Name="Update Position.vi" Type="VI" URL="../Update Position.vi"/>
 	<Item Name="Initialize Map.vi" Type="VI" URL="../Initialize Map.vi"/>
+	<Item Name="Update Map.vi" Type="VI" URL="../Update Map.vi"/>
+	<Item Name="Attack Options.ctl" Type="VI" URL="../Attack Options.ctl"/>
 </Library>
