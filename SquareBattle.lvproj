@@ -119,6 +119,9 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Map DVR.ctl" Type="VI" URL="../Squares/Common/Map DVR.ctl"/>
+			<Item Name="Location Data.ctl" Type="VI" URL="../Squares/Common/Location Data.ctl"/>
+			<Item Name="Initialize Map.vi" Type="VI" URL="../Squares/Common/Initialize Map.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SquareBattle" Type="EXE">
