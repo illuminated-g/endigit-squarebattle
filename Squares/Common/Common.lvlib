@@ -25,4 +25,5 @@
 	<Item Name="Update Position.vi" Type="VI" URL="../Update Position.vi"/>
 	<Item Name="Initialize Map.vi" Type="VI" URL="../Initialize Map.vi"/>
 	<Item Name="Update Map.vi" Type="VI" URL="../Update Map.vi"/>
+	<Item Name="Wait if Occupied.vi" Type="VI" URL="../Wait if Occupied.vi"/>
 </Library>
