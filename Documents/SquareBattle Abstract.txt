@@ -1,0 +1,7 @@
+SquareBattle is a platform for pre-written code modules, or "Squares", to compete in an arena, trying to eliminate other Squares through efficiency and strategy.  
+
+Squares are written as children of a parent LabVIEW Class, demonstrating and teaching concepts of object oriented programming, inheritance and dynamic dispatch.
+
+A SquareBattle demo will be on display in the LabVIEW Zone of the expo floor.  Participants can enter their code submissions to show up in the demo and compete for prizes.
+
+SquareBattle has been used in LabVIEW User Group meetings, certification summits, and training classes for introducing LabVIEW Class programming concepts, education and fun.
