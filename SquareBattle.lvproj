@@ -125,7 +125,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5ED402E-CA55-4183-A790-0560B1314F13}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SquareBattle.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/NI_AB_PROJECTNAME.exe</Property>
@@ -137,7 +137,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/SB SubVIs.lvlib/SquareBattle.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{97890649-A0F7-4D4B-8D34-E78F4CF7011B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{31C849DF-EAA2-42FA-A1BB-CCC02D96CF45}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Square.lvclass</Property>
@@ -146,7 +146,13 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SquareBattle Main.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Squares</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SquareBattle</Property>
 				<Property Name="TgtF_internalName" Type="Str">SquareBattle</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
