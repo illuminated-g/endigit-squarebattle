@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -30,6 +30,7 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 		</Item>
 		<Item Name="Square.lvclass" Type="LVClass" URL="../Square/Square.lvclass"/>
+		<Item Name="Configit.lvlib" Type="Library" URL="../Configit/Configit.lvlib"/>
 		<Item Name="Endigit.lvlib" Type="Library" URL="../Endigit Library/Endigit.lvlib"/>
 		<Item Name="SB SubVIs.lvlib" Type="Library" URL="../SubVIs/SB SubVIs.lvlib"/>
 		<Item Name="SB Type Defs.lvlib" Type="Library" URL="../Type Defs/SB Type Defs.lvlib"/>
@@ -100,6 +101,9 @@
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
