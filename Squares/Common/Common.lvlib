@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="15008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*$!!!*Q(C=\&gt;5R5O.!%)8B"U7QK7^![1J^"&gt;^AS\5"?6`"$AE)T+:,UOG'/M!GPE+@A#J(Z,[#_7@=O/T%#I"C!U;-:$_.?DZ,5U,K\9&gt;UI`V57VVMU_@\C,&lt;LR^K`"@P$]&lt;!\`4M'P8Y./NU/B\0L6W@\@&gt;7@HP^^PW`[^V^M_G\@\7P&lt;`?1C`@1V?[8W)K)H0?B/.\7J^EG?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ(UD&amp;\H)21YJG4S:+#G;&amp;%A'1V'S3TS**`%E(LYK]33?R*.Y%A^$F(A34_**0)G(SZ2Y%E`C34S*BV*&gt;EHUDRZ.Y++`!%XA#4_!*0%SJQ"-!AMG#QE%2'!J/"B]#4_!*0(R5Y!E]A3@Q""Z/+`!%HM!4?!)0F`3\%FX4.H)]F*(D=4S/R`%Y(EL,]4A?R_.Y(!`4S@%Y(A@B4/A5BS$H)G?!]]8R/"Y/=DS/R`%Y(M@$K@[%P._:JGE&lt;/2\$9XA-D_%R0*31Y4%]BM@Q'"\+SP!9(M.D?!Q05]HQ'"\$9U#-3:F?2D(D1G/1%2A?`PJKM@[5IEOM&lt;V)N8N7C6#UWV3*3,1\61V=^4.6$5NV]V5V6X3T646$^/"6;B6&amp;.ILKY$&gt;3/`:;_I9`U.8V*8^$H^)%_;Z&gt;_]-$&gt;&lt;K@N&gt;KP.:K.R(,6?L\6=,L69,$3@TT5-AW;TW@%V=-NW@#%=XEPX@'\^:8D]]`4P_?ZB((]^`@X^MXV`/^@[*`UP`1`?D&lt;L7;6XOU3M_Q.TW!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
+<Library LVVersion="16008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*$!!!*Q(C=\&gt;5R5O.!%)8B"U7QK7^![1J^"&gt;^AS\5"?6`"$AE)T+:,UOG'/M!GPE+@A#J(Z,[#_7@=O/T%#I"C!U;-:$_.?DZ,5U,K\9&gt;UI`V57VVMU_@\C,&lt;LR^K`"@P$]&lt;!\`4M'P8Y./NU/B\0L6W@\@&gt;7@HP^^PW`[^V^M_G\@\7P&lt;`?1C`@1V?[8W)K)H0?B/.\7J^EG?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ(UD&amp;\H)21YJG4S:+#G;&amp;%A'1V'S3TS**`%E(LYK]33?R*.Y%A^$F(A34_**0)G(SZ2Y%E`C34S*BV*&gt;EHUDRZ.Y++`!%XA#4_!*0%SJQ"-!AMG#QE%2'!J/"B]#4_!*0(R5Y!E]A3@Q""Z/+`!%HM!4?!)0F`3\%FX4.H)]F*(D=4S/R`%Y(EL,]4A?R_.Y(!`4S@%Y(A@B4/A5BS$H)G?!]]8R/"Y/=DS/R`%Y(M@$K@[%P._:JGE&lt;/2\$9XA-D_%R0*31Y4%]BM@Q'"\+SP!9(M.D?!Q05]HQ'"\$9U#-3:F?2D(D1G/1%2A?`PJKM@[5IEOM&lt;V)N8N7C6#UWV3*3,1\61V=^4.6$5NV]V5V6X3T646$^/"6;B6&amp;.ILKY$&gt;3/`:;_I9`U.8V*8^$H^)%_;Z&gt;_]-$&gt;&lt;K@N&gt;KP.:K.R(,6?L\6=,L69,$3@TT5-AW;TW@%V=-NW@#%=XEPX@'\^:8D]]`4P_?ZB((]^`@X^MXV`/^@[*`UP`1`?D&lt;L7;6XOU3M_Q.TW!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -26,4 +26,6 @@
 	<Item Name="Initialize Map.vi" Type="VI" URL="../Initialize Map.vi"/>
 	<Item Name="Update Map.vi" Type="VI" URL="../Update Map.vi"/>
 	<Item Name="Wait if Occupied.vi" Type="VI" URL="../Wait if Occupied.vi"/>
+	<Item Name="Find Multiple Enemies.vi" Type="VI" URL="../Find Multiple Enemies.vi"/>
+	<Item Name="Check For Team.vi" Type="VI" URL="../Check For Team.vi"/>
 </Library>
