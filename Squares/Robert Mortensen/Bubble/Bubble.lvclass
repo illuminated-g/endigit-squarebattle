@@ -154,11 +154,11 @@
 	<Item Name="Once a Round.vi" Type="VI" URL="../Once a Round.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#=!!!!"!!%!!!!)%"Q!"Y!!"!/1H6C9GRF,GRW9WRB=X-!!!6$&lt;'&amp;T=Q!01!-!#6*P&gt;7ZE)#AQ+1"B!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!#!!!!!1-!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268972560</Property>
 	</Item>
 	<Item Name="Player Info.vi" Type="VI" URL="../Player Info.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#]!!!!"A!71$$`````$52F:G6B&gt;#"4='6F9WA!'%!Q`````QZ7;7.U&lt;X*Z)&amp;.Q:76D;!!!$E!Q`````Q2/97VF!!!A1(!!(A!!%!Z#&gt;7*C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!"5.M98.T!!1!!!"5!0!!$!!!!!%!!A!$!!1!"!!%!!1!"!!%!!1!!Q)!!(A!!!E!!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!5!!!!!</Property>
