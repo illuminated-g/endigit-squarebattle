@@ -116,13 +116,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="Generate Expanding Scan Squares.vi" Type="VI" URL="../Generate Expanding Scan Squares.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="Generate Pattern.vi" Type="VI" URL="../Generate Pattern.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(T!!!!$1!%!!!!6A$RVQ*A01!!!!)/1H6C9GRF,GRW9WRB=X-.5G^M:3"&amp;&lt;H6N,G.U&lt;!!R1"9!$!&amp;1!5-"41*8-!*8-1*8-A*8-Q*8.!*8.1*8.A*8.Q&amp;0!!23&lt;WRF!!!71%!!!P``````````!!%&amp;5G^M:8-!CQ$RVQ'N11!!!!)/1H6C9GRF,GRW9WRB=X-/5X2B&gt;'5A27ZV&lt;3ZD&gt;'Q!:5!7!!E)182U97.L:71)4W.D&gt;8"J:71,27VQ&gt;(EA1WBJ&lt;'1+27VQ&gt;(EA47^W:1&gt;0&gt;82T;72F#E6N=(2Z)&amp;&gt;B&lt;'Q-27VQ&gt;(EA5'&amp;S:7ZU!V"P=!6&amp;&lt;G6N?1!!"6.U982F!!N!!Q!&amp;5G^V&lt;G1!0!$R!!!!!!!!!!)/1H6C9GRF,GRW9WRB=X-15X"P&gt;#"$&lt;(6T&gt;'6S,G.U&lt;!!51&amp;!!!A!$!!1%5X"P&gt;!!!&amp;%"!!!,``````````Q!&amp;!UVB=!!-1#%(5'^Q)#B'+1!.1!-!"E.P&lt;(6N&lt;A!!#5!$!!.3&lt;X=!$E!B#&amp;&gt;B&lt;'QA+%9J!!!21!-!#V*B:'FV=S!I-4!J!&amp;1!]!!-!!!!!A!'!!!!!!!!!!=!!!!)!!E!#A!,!Q!!?!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!#!!!!!A!!!!)!!!!!!%!$!!!!!!</Property>
