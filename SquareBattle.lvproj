@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -126,6 +126,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5ADA75C2-A99A-447A-A204-3334F84046F5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C5E04ACA-8D99-4BF7-A4FB-5C095F43A5F7}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C05D91FD-7B81-4E5E-B728-1419E056B315}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">SquareBattle</Property>
